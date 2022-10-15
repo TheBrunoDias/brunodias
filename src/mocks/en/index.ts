@@ -1,3 +1,4 @@
 import { header } from './header';
 
-export { header };
+const lang = 'en';
+export { lang, header };

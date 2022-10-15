@@ -1,8 +1,9 @@
 export const header = {
   menu: {
+    home: 'Home',
     about: 'Sobre',
-    resume: 'Curriculo',
-    portfolio: 'Portifólio',
-    contact: 'Contato',
+    resume: 'Curriculum',
+    portfolio: 'Portafolio',
+    contact: 'Contacto',
   },
 };
