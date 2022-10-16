@@ -11,7 +11,7 @@ export const portfolio = {
       title: 'Sitio web personal',
       type: 'personal',
       link: '#',
-      repository: '',
+      repository: 'https://github.com/TheBrunoDias/brunodias',
       description:
         'Sitio web que desarrollé para exponer mi currículum y los principales proyectos en los que he estado trabajando últimamente.',
       technologies: ['next', 'typescript', 'tailwind'],
