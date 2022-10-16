@@ -1,11 +1,15 @@
 import type { NextPage } from 'next';
+import { Hero, About, Resume, Portfolio } from '@Components/pages/home';
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
-    <>
-      <h1>Hello There</h1>
-    </>
+    <main>
+      <Hero />
+      <About />
+      <Resume />
+      <Portfolio />
+    </main>
   );
 };
 
-export default Home;
+export default HomePage;

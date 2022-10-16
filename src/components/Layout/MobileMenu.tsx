@@ -25,7 +25,7 @@ export const MobileMenu: React.FC<Props> = ({ links }) => {
             <Popover.Button className="text-main-500">
               <List size={24} weight="bold" />
             </Popover.Button>
-            {open && <div className="fixed inset-0 bg-black bg-opacity-50" />}
+            {open && <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70" />}
 
             <Transition
               as={Fragment}
@@ -46,11 +46,12 @@ export const MobileMenu: React.FC<Props> = ({ links }) => {
                   </header>
                   <div className="flex w-full justify-center items-center space-y-5 flex-col px-3 py-3">
                     {links.map((l) => (
-                      <Link key={l.id} href={l.path} passHref>
-                        <a className={`uppercase font-bold text-main-500`}>{l.label}</a>
-                      </Link>
+                      <a onClick={close} key={l.id} href={l.path} className={`uppercase font-bold text-main-500`}>
+                        {l.label}
+                      </a>
                     ))}
                   </div>
+
                   <div className="w-full border-t border-main-500 pt-3  flex justify-center items-center space-x-4 mt-10">
                     {['pt', 'es', 'en'].map((l) => (
                       <button

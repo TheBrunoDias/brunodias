@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .home--hero {
+    background-image: url(/images/home_hero_bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), #161616), url(/images/home_hero_bg.jpg);
+    background-repeat: no-repeat;
+  }
+}
