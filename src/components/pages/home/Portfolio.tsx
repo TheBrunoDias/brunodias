@@ -31,7 +31,6 @@ export const Portfolio: React.FC = () => {
         <p className="text-center">{content.portfolio.text}</p>
         <div className="w-20 h-[2px] bg-main-500"></div>
       </FadeUp>
-
       <FadeUp className="mb-10">
         <span className="flex-1">{content.portfolio.filter_message}:</span>
         <ul className="flex justify-start items-center gap-2 flex-wrap my-2">
@@ -76,10 +75,10 @@ export const Portfolio: React.FC = () => {
           .map((c) => (
             <div
               key={c.id}
-              className="p-4 flex-1 bg-dark-300 border-b-2 border-main-500 min-w-[320px] max-w-xs flex flex-col space-y-2"
+              className="p-4 flex-1 text-light-900 bg-dark-300 border-b-2 border-main-500 min-w-[320px] w-full lg:max-w-xs flex flex-col space-y-2"
             >
-              <h4 className="font-semibold text-sm text-main-500 ">{c.title}</h4>
-              <p className="text-xs">{c.description}</p>
+              <strong className="font-bold text-sm text-main-300 ">{c.title}</strong>
+              <p className="text-xs ">{c.description}</p>
               <span className="text-xs pt-2">
                 {c.technologies.map((t) => technologies.find((i) => i.id === t)?.label).join(', ')}
               </span>

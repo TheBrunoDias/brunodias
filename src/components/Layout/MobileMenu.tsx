@@ -22,7 +22,7 @@ export const MobileMenu: React.FC<Props> = ({ links }) => {
       <Popover>
         {({ close, open }) => (
           <>
-            <Popover.Button className="text-main-500">
+            <Popover.Button title="open mobile menu" className="text-main-500">
               <List size={24} weight="bold" />
             </Popover.Button>
             {open && <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-70" />}
@@ -39,14 +39,20 @@ export const MobileMenu: React.FC<Props> = ({ links }) => {
               <Popover.Panel className={`fixed top-0 right-0 h-screen bg-dark-300 w-1/2 p-3`}>
                 <div className="flex h-full justify-start items-center flex-col">
                   <header className="w-full py-10 relative flex justify-center items-center flex-col space-y-2">
-                    <button className="absolute top-0 right-2 text-main-500" onClick={close}>
+                    <button title={`close menu`} className="absolute top-0 right-2 text-main-500" onClick={close}>
                       <X size={24} weight="bold" />
                     </button>
                     <Image src="/images/logo.png" alt="Bruno Dias Logo" width="65" height="52" />
                   </header>
                   <div className="flex w-full justify-center items-center space-y-5 flex-col px-3 py-3">
                     {links.map((l) => (
-                      <a onClick={close} key={l.id} href={l.path} className={`uppercase font-bold text-main-500`}>
+                      <a
+                        onClick={close}
+                        title={l.label}
+                        key={l.id}
+                        href={l.path}
+                        className={`uppercase font-bold text-main-500`}
+                      >
                         {l.label}
                       </a>
                     ))}

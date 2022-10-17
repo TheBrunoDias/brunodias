@@ -12,6 +12,7 @@ export const Hero: React.FC = () => {
         <div className="flex justify-center items-center space-x-3">
           <a
             href={socials.github}
+            title={socials.github}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-main-500 duration-150"
@@ -20,6 +21,7 @@ export const Hero: React.FC = () => {
           </a>
           <a
             href={socials.linkedin}
+            title={socials.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-main-500 duration-150"
@@ -28,6 +30,7 @@ export const Hero: React.FC = () => {
           </a>
           <a
             href={socials.whatsapp}
+            title={socials.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-main-500 duration-150"
@@ -35,7 +38,11 @@ export const Hero: React.FC = () => {
             <WhatsappLogo size={28} />
           </a>
         </div>
-        <a href="#sobre" className="rounded-full  mt-20  flex justify-center items-center text-main-500">
+        <a
+          href="#sobre"
+          title="Próxima Seção"
+          className="rounded-full  mt-20  flex justify-center items-center text-main-500"
+        >
           <CaretDown size={24} weight="bold" className="animate-bounce" />
         </a>
       </FadeUp>

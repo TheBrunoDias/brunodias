@@ -9,10 +9,17 @@ export const About: React.FC = () => {
   return (
     <section
       id="sobre"
-      className="container -mt-40 pt-60 pb-10 flex justify-center lg:justify-between items-center flex-col space-y-4 lg:space-y-0 space-x-0 lg:space-x-20 lg:flex-row"
+      className="container -mt-40 pt-60 pb-10 flex justify-center lg:justify-between items-center flex-col space-y-4 lg:space-y-0 space-x-0 lg:space-x-10 lg:flex-row"
     >
-      <FadeUp className="relative z-1 w-full  max-w-[500px] h-[400px] lg:h-[500px] rounded-full ring-2 ring-main-500 shadow-lg shadow-main-500">
-        <Image src="/images/me_1.jpeg" alt="Bruno Sousa Dias" layout="fill" className="rounded-full" />
+      <FadeUp className="relative w-full max-w-[400px] h-[400px] rounded-full ring-2 ring-main-500 shadow-lg shadow-main-500">
+        <Image
+          src="/images/me_4.jpg"
+          alt="Bruno Sousa Dias"
+          objectFit="cover"
+          layout="fill"
+          objectPosition={'top'}
+          className="rounded-full "
+        />
       </FadeUp>
       <FadeUp className="max-w-3xl">
         <h2 className="text-2xl font-bold text-main-500">{content.about.section_title}:</h2>
@@ -35,6 +42,7 @@ export const About: React.FC = () => {
         <div className="flex justify-center lg:justify-start items-center space-x-3 mt-3">
           <a
             href={socials.github}
+            title={socials.github}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-main-500 duration-150"
@@ -43,6 +51,7 @@ export const About: React.FC = () => {
           </a>
           <a
             href={socials.linkedin}
+            title={socials.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-main-500 duration-150"
@@ -51,6 +60,7 @@ export const About: React.FC = () => {
           </a>
           <a
             href={socials.whatsapp}
+            title={socials.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-main-500 duration-150"

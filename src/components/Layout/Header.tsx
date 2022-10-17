@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
       >
         <div className="container flex justify-between items-center">
           <Link href="#" passHref>
-            <a>
+            <a title={content.header.menu.home}>
               <Image src="/images/logo.png" alt="Bruno Dias Logo" width="65" height="52" />
             </a>
           </Link>
@@ -46,6 +46,7 @@ export const Header: React.FC = () => {
                 <a
                   key={l.id}
                   href={l.path}
+                  title={l.label}
                   className={`font-bold pb-2 border-b-2 border-transparent text-light-500  hover:border-main-500 hover:text-main-500 duration-150`}
                 >
                   {l.label}
@@ -56,6 +57,7 @@ export const Header: React.FC = () => {
               {['pt', 'es', 'en'].map((l) => (
                 <button
                   key={l}
+                  title={l.toUpperCase()}
                   onClick={() => handleSelectLang(l as 'pt' | 'es' | 'en')}
                   className={`${
                     content.lang === l ? 'text-main-500' : 'text-light-500'
