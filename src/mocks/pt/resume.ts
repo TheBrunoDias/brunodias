@@ -1,8 +1,8 @@
 export const resume = {
-  section_title: 'Curriculo',
+  section_title: 'Currículo',
   text: 'Nessa seção estão meus 3 ultimos empregos, principais cursos e diplomas que adquiri ao longo dos anos.',
   professonal_title: 'Experiências Profissionais',
-  educational_title: 'Educação',
+  educational_title: 'Escolaridade',
   course_title: 'Cursos',
   professional_labels: {
     title: 'Profissão',
@@ -48,6 +48,7 @@ export const resume = {
       collage: 'Uniamérica - Foz do Iguaçu',
       level: 'Ensino Superior',
       conclusion_year: '2022',
+      link: 'https://uniamerica.br/boulevard/graduacao/analise-e-desenvolvimento-de-sistemas',
     },
     {
       id: 2,
@@ -62,6 +63,7 @@ export const resume = {
       collage: 'Universidade Estadual do Oeste do Paraná - Foz do Iguaçu',
       level: 'Ensino Superior',
       conclusion_year: 'Não finalizado.',
+      link: 'https://www.unioeste.br/portal/prograd-outros/cursos-campus-todos/fozcampus?campi=0&curso=FOZ0042',
     },
   ],
   courses_labels: {
@@ -77,6 +79,7 @@ export const resume = {
       category: 'Desenvolvimento Web - Front end',
       duration: '75 horas',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/formacao-react-ts',
     },
     {
       id: 2,
@@ -84,6 +87,7 @@ export const resume = {
       category: 'Desenvolvimento Web - Front end',
       duration: '08 horas',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/curso-online-react-otimizando-performance',
     },
     {
       id: 3,
@@ -91,6 +95,7 @@ export const resume = {
       category: 'Desenvolvimento Web - Front end',
       duration: '08 horas',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/conteudo/tailwind-css-estilizando-pagina-classes-utilitarias',
     },
     {
       id: 4,
@@ -98,6 +103,39 @@ export const resume = {
       category: 'Inovação & Gestão',
       duration: '10 horas',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/conteudo/agile-scrum',
+    },
+    {
+      id: 5,
+      title: 'Curso de JavaScript Completo do iniciante ao mestre (em andamento)',
+      category: 'Desenvolvimento Web',
+      duration: '113.5 horas',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/javascript-completo-2018-do-iniciante-ao-mestre/',
+    },
+    {
+      id: 6,
+      title: 'Node.js Microservices: NestJS, RabbitMQ and Cloud Services (em andamento)',
+      category: 'Backend',
+      duration: '22,5 horas',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/construindo-um-backend-escalavel-com-nestjs-aws-e-pivotalws/',
+    },
+    {
+      id: 7,
+      title: 'Next.js e React - Curso Completo - Aprenda com Projetos (em andamento)',
+      category: 'Desenvolvimento Web - Front end',
+      duration: '28,5 horas',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/nextjs-e-react/',
+    },
+    {
+      id: 8,
+      title: 'API Restful Javascript com Node.js, Typescript, TypeORM (em andamento)',
+      category: 'Backend',
+      duration: '27 horas',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/api-restful-de-vendas/',
     },
   ],
 };

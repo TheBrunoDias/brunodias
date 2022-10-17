@@ -66,7 +66,7 @@ export const Portfolio: React.FC = () => {
           ** <span className="font-light">{content.portfolio.projects_message}</span>
         </p>
       </FadeUp>
-      <FadeUp className="flex justify-center lg:justify-start items-stretch gap-4 flex-wrap my-3 duration-150 w-full">
+      <div className="flex justify-center lg:justify-start items-stretch gap-4 flex-wrap my-3 duration-150 w-full">
         {cards
           .sort((a, b) => {
             if (a.title < b.title) return -1;
@@ -107,7 +107,7 @@ export const Portfolio: React.FC = () => {
               </div>
             </div>
           ))}
-      </FadeUp>
+      </div>
     </section>
   );
 };

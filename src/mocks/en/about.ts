@@ -1,13 +1,12 @@
 export const about = {
   section_title: 'About',
-  text: `
-  Born and raised in Foz do Iguaçu - PR, I graduated in <b>System Analysis and Development</b> in July
-   2022 by 
-   <a href="https://uniamerica.br/" target="_blank" rel="noopener noreferrer">
-     <u>Uniamerica University.</u>
-   </a>
-   I started working as a web developer in 2020 and since then I have been gaining more and more experience as
-   Full Stack, having worked on several professional and personal projects over the years.`,
+  text: `Born in Foz do Iguaçu - PR, I have a degree in <b>System Analysis and Development</b> from
+  <a href="https://uniamerica.br/" target="_blank" rel="noopener noreferrer">
+    <u>Uniamerica University.</u>
+  </a>
+  I started working as a web developer in 2020 and since then I have been gaining more and more experience as
+  Full Stack, having worked on several professional and personal projects over the years. I am currently perfecting myself in
+  new technologies like <b>Next.js, Nest.js and microservices.</b>`,
   info: [
     {
       label: 'Full name',

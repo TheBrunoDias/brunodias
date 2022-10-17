@@ -1,12 +1,10 @@
 export const about = {
   section_title: 'Sobre',
-  text: `Nascido e criado em Foz do Iguaçu - PR, me graduei em <b>Análise e Desenvolvimento de Sistemas</b> em julho de
-  2022 pela 
+  text: `Natural de Foz do Iguaçu - PR, sou graduado em <b>Análise e Desenvolvimento de Sistemas</b> pela 
   <a href="https://uniamerica.br/" target="_blank" rel="noopener noreferrer">
     <u>Universidade Uniamérica.</u>
   </a>
-  Comecei a trabalhar como desenvolvedor web em 2020 e desde lá venho adquirindo cada vez mais experiência como
-  Full Stack, tendo trabalhando em vários projetos profissionais e pessoais ao longo desses anos.`,
+  Comecei a trabalhar como desenvolvedor web em 2020 e desde então venho adquirindo cada vez mais experiência como Full Stack, tendo atuado em vários projetos profissionais e pessoais ao longo desses anos. Atualmente estou me aperfeiçoando em novas tecnologias como <b>Next.js, Nest.js e microsserviços.</b>`,
   info: [
     {
       label: 'Nome Completo',

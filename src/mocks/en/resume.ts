@@ -48,6 +48,7 @@ export const resume = {
       collage: 'Uniamérica - Foz do Iguaçu',
       level: 'University education',
       conclusion_year: '2022',
+      link: 'https://www.unioeste.br/portal/prograd-outros/cursos-campus-todos/fozcampus?campi=0&curso=FOZ0042',
     },
     {
       id: 2,
@@ -62,6 +63,7 @@ export const resume = {
       collage: 'Universidade Estadual do Oeste do Paraná - Foz do Iguaçu',
       level: 'University education',
       conclusion_year: 'Not finished.',
+      link: 'https://www.unioeste.br/portal/prograd-outros/cursos-campus-todos/fozcampus?campi=0&curso=FOZ0042',
     },
   ],
   courses_labels: {
@@ -77,6 +79,7 @@ export const resume = {
       category: 'Web development - Front end',
       duration: '75 hours',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/formacao-react-ts',
     },
     {
       id: 2,
@@ -84,6 +87,7 @@ export const resume = {
       category: 'Web development - Front end',
       duration: '08 hours',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/curso-online-react-otimizando-performance',
     },
     {
       id: 3,
@@ -91,6 +95,7 @@ export const resume = {
       category: 'Web development - Front end',
       duration: '08 hours',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/conteudo/tailwind-css-estilizando-pagina-classes-utilitarias',
     },
     {
       id: 4,
@@ -98,6 +103,39 @@ export const resume = {
       category: 'Innovation & Management',
       duration: '10 hours',
       collage: 'Alura',
+      link: 'https://www.alura.com.br/conteudo/agile-scrum',
+    },
+    {
+      id: 5,
+      title: 'Complete JavaScript Course from Beginner to Master (in progress)',
+      category: 'Desenvolvimento Web',
+      duration: '113.5 hours',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/javascript-completo-2018-do-iniciante-ao-mestre/',
+    },
+    {
+      id: 6,
+      title: 'Node.js Microservices: NestJS, RabbitMQ and Cloud Services (in progress)',
+      category: 'Backend',
+      duration: '22,5 hours',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/construindo-um-backend-escalavel-com-nestjs-aws-e-pivotalws/',
+    },
+    {
+      id: 7,
+      title: 'Next.js and React - Complete Course - Learn from Projects (in progress)',
+      category: 'Desenvolvimento Web - Front end',
+      duration: '28,5 hours',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/nextjs-e-react/',
+    },
+    {
+      id: 8,
+      title: 'Restful Javascript API with Node.js, Typescript, TypeORM (in progress)',
+      category: 'Backend',
+      duration: '27 hours',
+      collage: 'Udemy',
+      link: 'https://www.udemy.com/course/api-restful-de-vendas/',
     },
   ],
 };
