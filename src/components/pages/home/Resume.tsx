@@ -53,6 +53,24 @@ export const Resume: React.FC = () => {
           </div>
           <div className="w-full">
             <FadeUp>
+              <h3 className="text-base mb-2 text-main-500 font-bold">{content.resume.professonal_title}:</h3>
+            </FadeUp>
+            <div className="flex gap-3 items-stretch flex-col lg:flex-row">
+              {content.resume.professional.map((p) => (
+                <FadeUp
+                  key={p.id}
+                  className="flex w-full flex-col space-y-1 px-2 py-3 mb-1 bg-dark-300 border-l-2 border-main-500"
+                >
+                  <h4 className="uppercase font-semibold mb-1">{p.title}</h4>
+                  <span className="">{p.company}</span>
+                  <span className="font-light text-xs">{p.duration}</span>
+                  <p className="font-light">{p.description}</p>
+                </FadeUp>
+              ))}
+            </div>
+          </div>
+          <div className="w-full">
+            <FadeUp>
               <h3 className="text-base mb-2 text-main-500 font-bold">{content.resume.course_title}:</h3>
             </FadeUp>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
@@ -79,24 +97,6 @@ export const Resume: React.FC = () => {
                       </a>
                     </div>
                   )}
-                </FadeUp>
-              ))}
-            </div>
-          </div>
-          <div className="w-full">
-            <FadeUp>
-              <h3 className="text-base mb-2 text-main-500 font-bold">{content.resume.professonal_title}:</h3>
-            </FadeUp>
-            <div className="flex gap-3 items-stretch flex-col lg:flex-row">
-              {content.resume.professional.map((p) => (
-                <FadeUp
-                  key={p.id}
-                  className="flex w-full flex-col space-y-1 px-2 py-3 mb-1 bg-dark-300 border-l-2 border-main-500"
-                >
-                  <h4 className="uppercase font-semibold mb-1">{p.title}</h4>
-                  <span className="">{p.company}</span>
-                  <span className="font-light text-xs">{p.duration}</span>
-                  <p className="font-light">{p.description}</p>
                 </FadeUp>
               ))}
             </div>

@@ -1,6 +1,6 @@
 export const resume = {
   section_title: 'Curriculum',
-  text: 'In this section are my last 3 jobs, main courses and degrees that I acquired over the years.',
+  text: 'In this section are my last 03 jobs, main courses and degrees that I acquired over the years.',
   professonal_title: 'Professional Experiences',
   educational_title: 'Education',
   course_title: 'Courses',
@@ -15,8 +15,8 @@ export const resume = {
       id: 1,
       title: 'Full Stack Developer',
       company: 'Evah.io - Soluções em Tecnologia',
-      description:
-        'Development of Web and Mobile applications, using technologies such as React.js, Next.js, Express.js, Typescript, Firebase, MongoDB, Wordpress and others.',
+      description: `Development of Web and Mobile applications, using languages and technologies such as:
+        Javascript, Typescript, HTML, CSS, React.js, Next.js, Tailwindcss, Styled-components, Material-UI, Firebase, Node.js, Strapi, Mysql, MongoDB, Wordpress. In addition to acting as technical support in customer service and technical leader of the development team.`,
       duration: 'August/2021 - present',
     },
     {
@@ -31,7 +31,7 @@ export const resume = {
       title: 'Technical support',
       company: 'LWC - Serviços de Tecnologia',
       description:
-        'Assist in sales and inventory of electronic components, development of web applications using HTML, CSS and Javascript.',
+        'Assist in sales and inventory of electronic components, development of web applications using HTML, CSS, Javascript, Bootstrap, Jquery and a little bit of Laravel',
       duration: 'March/2020 - December/2020',
     },
   ],
