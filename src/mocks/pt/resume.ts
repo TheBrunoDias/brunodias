@@ -13,28 +13,30 @@ export const resume = {
   professional: [
     {
       id: 1,
+      title: 'Desenvolvedor Frontend',
+      company: 'GRUPOW - Softwares para Internet',
+      description: `
+      Desenvolvimento de aplicações Web, utilizando linguagens e tecnologias como:
+      Javascript, Typescript, HTML, CSS, React.js, Next.js, Tailwindcss, Styled-components, Material-UI, Wordpress. 
+      `,
+      duration: 'Novembro/2022 - presente',
+    },
+    {
+      id: 2,
       title: 'Desenvolvedor Full Stack',
       company: 'Evah.io - Soluções em Tecnologia',
       description: `
         Desenvolvimento de aplicações Web e Mobile, utilizando linguagens e tecnologias como: 
         Javascript, Typescript, HTML, CSS, React.js, Next.js, Tailwindcss, Styled-components, Material-UI, Firebase, Node.js, Strapi, Mysql, MongoDB, Wordpress. Além de atuar como suporte técnico no atendimento aos clientes e lider técnico do time de desenvolvimento.
       `,
-      duration: 'Agosto/2021 - presente',
+      duration: 'Agosto/2021 - Fevereiro/2023',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Técnico de Manutenção',
       company: 'Hospital Municipal Padre Germano Lauck',
       description: 'Manutenção de equipamentos elétricos, mecânicos e prediais.',
       duration: 'Janeiro/2021 - Agosto/2021',
-    },
-    {
-      id: 3,
-      title: 'Suporte Técnico',
-      company: 'LWC - Serviços de Tecnologia',
-      description:
-        'Auxiliar nas vendas e estoque de componentes eletrônicos, desenvolvimento de aplicações web utilizando HTML, CSS, Javascript, Bootstrap, Jquery e um pouco de Laravel',
-      duration: 'Março/2020 - Dezembro/2020',
     },
   ],
   educational_labels: {

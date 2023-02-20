@@ -13,26 +13,28 @@ export const resume = {
   professional: [
     {
       id: 1,
+      title: 'Frontend Developer',
+      company: 'GRUPOW - Softwares para Internet',
+      description: `
+      Development of Web applications, using languages and technologies such as:
+      Javascript, Typescript, HTML, CSS, React.js, Next.js, Tailwindcss, Styled-components, Material-UI, Wordpress. 
+      `,
+      duration: 'November/2022 - present',
+    },
+    {
+      id: 2,
       title: 'Full Stack Developer',
       company: 'Evah.io - Soluções em Tecnologia',
       description: `Development of Web and Mobile applications, using languages and technologies such as:
         Javascript, Typescript, HTML, CSS, React.js, Next.js, Tailwindcss, Styled-components, Material-UI, Firebase, Node.js, Strapi, Mysql, MongoDB, Wordpress. In addition to acting as technical support in customer service and technical leader of the development team.`,
-      duration: 'August/2021 - present',
+      duration: 'August/2021 - February/2023',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Maintenance technician',
       company: 'Father Germano Lauck Municipal Hospital',
       description: 'Maintenance of electrical, mechanical and building equipment.',
       duration: 'January/2021 - August/2021',
-    },
-    {
-      id: 3,
-      title: 'Technical support',
-      company: 'LWC - Serviços de Tecnologia',
-      description:
-        'Assist in sales and inventory of electronic components, development of web applications using HTML, CSS, Javascript, Bootstrap, Jquery and a little bit of Laravel',
-      duration: 'March/2020 - December/2020',
     },
   ],
   educational_labels: {
@@ -48,7 +50,7 @@ export const resume = {
       collage: 'Uniamérica - Foz do Iguaçu',
       level: 'University education',
       conclusion_year: '2022',
-      link: 'https://www.unioeste.br/portal/prograd-outros/cursos-campus-todos/fozcampus?campi=0&curso=FOZ0042',
+      link: 'https://uniamerica.br/boulevard/graduacao/analise-e-desenvolvimento-de-sistemas',
     },
     {
       id: 2,
